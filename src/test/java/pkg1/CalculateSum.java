@@ -4,7 +4,7 @@ public class CalculateSum {
 
     public static void main(String[] args){
 
-        System.out.println("GM");
+        System.out.println("GM5");
 
     }
 
