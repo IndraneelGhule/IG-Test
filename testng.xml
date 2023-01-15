@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <!-- <suite-files> <suite-file path="suite1.xml" /> <suite-file path="suite2.xml"
 	/> </suite-files> -->
-<suite name="Suite">
+<suite name="Suite" parallel="methods" thread-count="5">
     <parameter name="str" value="url1NEEL" />
     <test name="Smoke">
         <classes>
